@@ -25,8 +25,8 @@ stage (copying index file)
 {
 	steps{
 	sh "sudo docker cp $Woskspace/index.html httpd-1:/usr/local/apche2/htdocs"
-	sh "sudo docker cp $Woskspace/index.html httpd-2:/usr/local/apche2/htdocs"
-	sh "sudo docker cp $Woskspace/index.html httpd-3:/usr/local/apche2/htdocs"
+	sh "sudo docker cp $Woskspace/index1.html httpd-2:/usr/local/apche2/htdocs"
+	sh "sudo docker cp $Woskspace/index2.html httpd-3:/usr/local/apche2/htdocs"
 	}
 }
 
